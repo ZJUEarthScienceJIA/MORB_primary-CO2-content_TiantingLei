@@ -9,12 +9,12 @@ This file contains model dataset, implication dataset and results for ML.
 3. Case validation dataset -- This file contains three tables and they contain the geochemistry data of the MORB cases, which are used to validation the reliability of our ML model. In the first table (named ‘Gakkel_DMORB’), sample 13-1_18 D-MORB (depleted MORB) shows the highest measured CO2 content of the MORBs from Shaw et al. (2010) and consistent with the calculated CO2 contents of primary undegassed melts based on their melting model, which was suggested to degas least or even undegas (Shaw et al., 2010). The second table (named ‘Indian_EMORB’) contains the geochemistry data the Dr 30 MORBs. Zhou et al. (2022) report the definitive samples of pyroclastic debris sampled from a cratered terrain on the SWIR and they are the result of shallow mixing of an alkaline magma with entrained MORB crystal mush from beneath the flank of a rift valley. Including samples’ vesicularity and assuming the vesicles contained only CO2, the Dr 30 lavas and scoria have total CO2 at the depth of eruption ranging from 0.79 wt% to 4.10 wt% (Zhou et al., 2022).In the third table (named ‘Pacific_DMORB_and_EMORB_mantle’), sample GL08-73-4 D-MORB, trace element depleted but isotopically enriched, shows the highest measured CO2/Ba ratio of the MORBs from Shimizu et al. (2023) and was suggest to the most reliable pre-degassed sample (Shimizu et al., 2023). And they recovered CO2/Ba ratio of the Pacific E-MORB (enriched MORB) mantle source with combining the highest CO2/Ba ratio and a model that considers near-fractional melting of mantle sources. Based on the Pacific E-MORBs data from Shimizu et al. (2023), we use ML to predict the primary CO2/Ba ratio for the Pacific E-MORB mantle source.
 
 # Code files
-	XGBoost_main.py – This file contains the code of model training using the ML algorithms of Extreme Gradient Boosting (XGBoost), prediction via ML model.
+XGBoost_main.py – This file contains the code of model training using the ML algorithms of Extreme Gradient Boosting (XGBoost), prediction via ML model.
 
 # Requirements
-	The codes used in this paper were compiled on the Python 3.11. 
+The codes used in this paper were compiled on the Python 3.11. 
 	
 # Contributions
-	Tianting Lei
-	Email : leitt1106@zju.edu.cn
+Tianting Lei
+Email : leitt1106@zju.edu.cn
 
