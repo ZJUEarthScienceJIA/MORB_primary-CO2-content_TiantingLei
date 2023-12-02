@@ -1,5 +1,5 @@
 README
-Overview
+# Overview
 This repository contains data source and codes used in the paper entitled “Prediction of CO2 content in oceanic basalts via machine learning approach” by T. Lei et al. We constructed a supervised machine learning (ML) model capable of accurately predicting CO2 concentrations in individual mid-ocean ridge basalts (MORBs) based on selected elemental concentrations of the compiled undegassed MORB glasses and melt inclusions (MIs) dataset. Our findings underscore the potential of ML as a powerful tool to uncover hidden structural patterns in complex geological data, shedding light on the intricate interplay between carbon, mantle composition, and Earth's long-term geological processes. We compiled 3 data sources and 1 code to generate the diagrams in Fig. 1-Fig. 3 and Table 1, and supplementary figures and tables. Here is the list of data and code files.
 
 Data files
