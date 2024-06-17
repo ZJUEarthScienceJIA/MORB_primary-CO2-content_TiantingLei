@@ -14,7 +14,7 @@ Code files
 	XGBoost_main.py – This file contains the code of model training using the ML algorithms of Extreme Gradient Boosting (XGBoost), prediction via ML model.
 
 Requirements
-	The codes used in this paper were compiled on the Python 3.11. 
+	The codes used in this paper were compiled on the Python 3.11. And the XGBoost version is 1.7.3.
 	
 Contributions
 	Tianting Lei
